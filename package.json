@@ -1,0 +1,19 @@
+{
+  "name": "MiojoBot",
+  "version": "1.0.0",
+  "description": "BETCHER é lindo demais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BETCHER",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "libsodium-wrappers": "^0.7.3",
+    "opusscript": "0.0.6",
+    "uws": "^9.14.0",
+    "ytdl-core": "^0.20.2"
+  }
+}
