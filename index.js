@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const TOKEN = "NDM0Nzg1NzkzMjMyMzM4OTU0.DbPdWA.E0yAuJaV9S6hWG0Cumw1fSfv4v0"
 const fs = require("fs")
 const xp = require('./xp.json')
 const role = require('./sim.json')
@@ -846,4 +845,4 @@ LISTENING
 WATCHING*/
 })
 
-bot.login(TOKEN);
+bot.login(process.env.BOT_TOKEN);
